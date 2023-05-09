@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayCoreProject", "HolidayCoreProject\HolidayCoreProject.csproj", "{B79B7E18-A5D5-4FB9-A36D-DC8E7550D32A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B79B7E18-A5D5-4FB9-A36D-DC8E7550D32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79B7E18-A5D5-4FB9-A36D-DC8E7550D32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79B7E18-A5D5-4FB9-A36D-DC8E7550D32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79B7E18-A5D5-4FB9-A36D-DC8E7550D32A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CE0B82-2212-464E-AB6B-A4D3CB9EE282}
+	EndGlobalSection
+EndGlobal
