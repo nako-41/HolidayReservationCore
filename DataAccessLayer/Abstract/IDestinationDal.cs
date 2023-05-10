@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IDestinationDal
+    public interface IDestinationDal:IGenericDal<Destination>
     {
-        void Insert(Destination destination);
-        void Delete(Destination destination);
-        void Update(Destination destination);
-        List<Destination> GetDestination();
+        //void Insert(Destination destination);
+        //void Delete(Destination destination);
+        //void Update(Destination destination);
+        //List<Destination> GetDestination();
     }
 }
