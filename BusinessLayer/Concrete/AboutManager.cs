@@ -21,6 +21,7 @@ namespace BusinessLayer.Concrete
         public void TAdd(About t)
         {
             _aboutDal.Insert(t);
+            
         }
 
         public void TDelete(About t)
