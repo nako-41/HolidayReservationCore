@@ -12,6 +12,7 @@ namespace HolidayCoreProject.ViewComponents.Default
             var result = testimonialManager.TGetList();
 
             return View(result);
+
         }
 
     }

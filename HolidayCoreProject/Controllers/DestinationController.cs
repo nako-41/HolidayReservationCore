@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HolidayCoreProject.Controllers
@@ -13,5 +14,17 @@ namespace HolidayCoreProject.Controllers
 
             return View(values);
         }
+
+        [HttpGet]
+        public IActionResult DestinationDetails(int id)
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult DestinationDetails(Destination p)
+        {
+            return View();
+        }
     }
+    
 }
