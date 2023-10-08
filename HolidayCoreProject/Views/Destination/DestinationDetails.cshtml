@@ -7,6 +7,8 @@
     Layout = "~/Views/Shared/_UILayout.cshtml";
 }
 
+
+
 <!doctype html>
 <html lang="zxx">
 
@@ -34,13 +36,17 @@
                         TATIL
                     </a>
                 </h1>
+
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+
                         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                         aria-label="Toggle navigation">
+
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                    </span>
+    
                 </button>
+
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto">
@@ -158,24 +164,7 @@
                         </footer>
 
                     </blockquote>
-                    <h3 class="blog-desc-big m-0 mb-4">Excepteur sint occaecat non proident</h3>
-                    <p class="mb-4">
-                        Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id
-                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
-                        repellat, architecto corporis rerum ipsa alias cum!
-                    </p>
-                    <p class="mb-4">
-                        Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                        lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis.
-                    </p>
-                    <p class="mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, veritatis. Excepteur
-                        sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id
-                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+     
                     <div class="sing-post-thumb mb-5 row pt-3">
                         <div class="col-sm-6">
                             <a href="#url"><img src="~/Traversal-Liberty/assets/images/g8.jpg" class="img-fluid radius-image" alt=""></a>
@@ -184,28 +173,17 @@
                             <a href="#url"><img src="~/Traversal-Liberty/assets/images/g9.jpg" class="img-fluid radius-image" alt=""></a>
                         </div>
                     </div>
-                    <h3 class="blog-desc-big m-0 mb-lg-4 mb-3">Lorem ipsum dolor sit</h3>
+                    <h3 class="blog-desc-big m-0 mb-lg-4 mb-3">2.paragraf</h3>
                     <p class="mb-4">
-                        Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                        lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis. Lorem ipsum dolor, sit amet elit.
+                       @Model.Details2
                     </p>
 
-                    <p class="mb-4">
-                        Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id
-                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
-                        repellat, architecto corporis rerum ipsa alias cum!
-                    </p>
-                    <p class="mb-4">
-                        Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
-                        lacinia id
-                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
-                        culpa quis.
-                    </p>
+       
 
                     <h3 class="blog-desc-big m-0 mt-5 mb-4">Search for Inspiration</h3>
-                    <p class="mb-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim repellat, architecto corporis rerum ipsa alias cum!</p>
+                    <p class="mb-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu. Nunc id ipsum fringilla, 
+                        gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Unde expedita esse error enim repellat, architecto corporis rerum ipsa alias cum!</p>
                     <p class="mb-4">
                         Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
                         lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
@@ -284,7 +262,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--//author-card-->
 
 
                     <div class="comments mt-5">
@@ -332,7 +309,8 @@
                                     </li>
                                 </ul>
                                 <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing. Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga,
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing. Ea consequuntur illum facere aperiam sequi optio consectetur 
+                                    adipisicing elitFuga,
                                     suscipit totam animi.....
                                 </p>
                                 <div class="media second mt-4 p-0 pt-2">
@@ -389,7 +367,7 @@
                     </div>
                 </div>
             </div>
-            <!--//blog-post-->
+   
             </div>
     </section>
 
@@ -411,7 +389,7 @@
             }
         });
 
-        //Main navigation Active Class Add Remove
+    
         $(".navbar-toggler").on("click", function () {
             $("header").toggleClass("active");
         });

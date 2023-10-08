@@ -7,12 +7,15 @@ namespace HolidayCoreProject.Controllers
 {
     public class DestinationController : Controller
     {
+
         DestinationManager destinationManager = new DestinationManager(new EfDestinationDal());
+
         public IActionResult Index()
         {
             var values = destinationManager.TGetList();
 
-            return View(values);
+            return View(values); 
+
         }
 
         [HttpGet]
@@ -28,5 +31,4 @@ namespace HolidayCoreProject.Controllers
             return View();
         }
     }
-    
 }
