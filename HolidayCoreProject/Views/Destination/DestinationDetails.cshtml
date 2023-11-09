@@ -265,7 +265,7 @@
 
 
 
-                    @await Component.InvokeAsync("_CommentList")
+                    @await Component.InvokeAsync("_CommentList",new {id=ViewBag.i})
 
                     @await Component.InvokeAsync("_AddComment")
 
