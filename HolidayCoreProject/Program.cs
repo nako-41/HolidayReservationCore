@@ -1,5 +1,6 @@
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
+using HolidayCoreProject.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 
@@ -23,7 +24,7 @@ builder.Services.AddIdentity<AppUser, AppRole>(_=>
 
     _.Password.RequireDigit = false;
 
-}).AddEntityFrameworkStores<Context>();
+}).AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
 
 builder.Services.AddMvc(config =>
